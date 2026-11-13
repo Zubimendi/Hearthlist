@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Hearthlist",
+    "slug": "hearthlist",
+    "version": "1.0.0",
+    "scheme": "hearthlist",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FBF7F2"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FBF7F2"
+      },
+      "package": "com.hearthlist.app"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.hearthlist.app"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "hearthlist"
+      }
+    }
+  }
+}
